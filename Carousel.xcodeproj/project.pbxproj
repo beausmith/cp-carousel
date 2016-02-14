@@ -12,6 +12,13 @@
 		8BB816EA1C6AFCD3000225AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB816E81C6AFCD3000225AC /* Main.storyboard */; };
 		8BB816EC1C6AFCD3000225AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB816EB1C6AFCD3000225AC /* Assets.xcassets */; };
 		8BB816EF1C6AFCD3000225AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB816ED1C6AFCD3000225AC /* LaunchScreen.storyboard */; };
+		8BB8171B1C6FCC6B000225AC /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB8171A1C6FCC6B000225AC /* Common.swift */; };
+		8BB8171D1C6FD299000225AC /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB8171C1C6FD299000225AC /* IntroViewController.swift */; };
+		8BB8171F1C6FD67E000225AC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB8171E1C6FD67E000225AC /* LoginViewController.swift */; };
+		8BB817211C70E1C0000225AC /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB817201C70E1C0000225AC /* TutorialViewController.swift */; };
+		8BB817231C70ED43000225AC /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB817221C70ED43000225AC /* TimelineViewController.swift */; };
+		8BB817251C70EF08000225AC /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB817241C70EF08000225AC /* ConversationsViewController.swift */; };
+		8BB817271C70EF1E000225AC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB817261C70EF1E000225AC /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		8BB816EB1C6AFCD3000225AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BB816EE1C6AFCD3000225AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BB816F01C6AFCD3000225AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BB8171A1C6FCC6B000225AC /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		8BB8171C1C6FD299000225AC /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		8BB8171E1C6FD67E000225AC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8BB817201C70E1C0000225AC /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		8BB817221C70ED43000225AC /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		8BB817241C70EF08000225AC /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		8BB817261C70EF1E000225AC /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +69,15 @@
 			isa = PBXGroup;
 			children = (
 				8BB816E41C6AFCD3000225AC /* AppDelegate.swift */,
+				8BB817261C70EF1E000225AC /* SettingsViewController.swift */,
+				8BB817241C70EF08000225AC /* ConversationsViewController.swift */,
 				8BB816E61C6AFCD3000225AC /* ViewController.swift */,
+				8BB817201C70E1C0000225AC /* TutorialViewController.swift */,
+				8BB8171A1C6FCC6B000225AC /* Common.swift */,
 				8BB816E81C6AFCD3000225AC /* Main.storyboard */,
+				8BB817221C70ED43000225AC /* TimelineViewController.swift */,
+				8BB8171E1C6FD67E000225AC /* LoginViewController.swift */,
+				8BB8171C1C6FD299000225AC /* IntroViewController.swift */,
 				8BB816EB1C6AFCD3000225AC /* Assets.xcassets */,
 				8BB816ED1C6AFCD3000225AC /* LaunchScreen.storyboard */,
 				8BB816F01C6AFCD3000225AC /* Info.plist */,
@@ -136,7 +157,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BB816E71C6AFCD3000225AC /* ViewController.swift in Sources */,
+				8BB8171B1C6FCC6B000225AC /* Common.swift in Sources */,
 				8BB816E51C6AFCD3000225AC /* AppDelegate.swift in Sources */,
+				8BB817251C70EF08000225AC /* ConversationsViewController.swift in Sources */,
+				8BB8171F1C6FD67E000225AC /* LoginViewController.swift in Sources */,
+				8BB817231C70ED43000225AC /* TimelineViewController.swift in Sources */,
+				8BB817211C70E1C0000225AC /* TutorialViewController.swift in Sources */,
+				8BB8171D1C6FD299000225AC /* IntroViewController.swift in Sources */,
+				8BB817271C70EF1E000225AC /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
