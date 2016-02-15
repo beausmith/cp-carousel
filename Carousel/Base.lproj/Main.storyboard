@@ -89,6 +89,7 @@
                         <outlet property="emailField" destination="q4n-ql-GyH" id="izg-IX-BaH"/>
                         <outlet property="fieldParentView" destination="TcZ-cb-JFY" id="ORh-08-A5I"/>
                         <outlet property="loginButton" destination="czC-xa-6jg" id="kmv-Ip-GvF"/>
+                        <outlet property="loginNavBar" destination="GZ4-0w-iig" id="Mae-IH-2qX"/>
                         <outlet property="passwordField" destination="muj-4U-MNi" id="VHv-xP-uNC"/>
                         <outlet property="scrollView" destination="Tf4-eC-nDn" id="aQZ-MD-KqY"/>
                         <segue destination="cvf-bm-9Q4" kind="modal" identifier="loginSegue" id="WPY-wH-qWs"/>
@@ -144,6 +145,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="currentPageIndicatorTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="didTapPageControl:" destination="cvf-bm-9Q4" eventType="valueChanged" id="jba-ah-AgA"/>
+                                </connections>
                             </pageControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -338,7 +342,7 @@
                                         <rect key="frame" x="19" y="1068" width="282" height="48"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
-                                            <segue destination="48L-EZ-hhN" kind="push" id="STV-qV-yhd"/>
+                                            <segue destination="48L-EZ-hhN" kind="push" animates="NO" id="STV-qV-yhd"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe up to continue." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Lgx-Zk-qXd">
@@ -360,6 +364,12 @@
                     <connections>
                         <outlet property="introImageView" destination="WRR-IK-NbE" id="PFM-ef-U0A"/>
                         <outlet property="scrollView" destination="xY4-6W-yCC" id="fFF-vT-JBd"/>
+                        <outlet property="tile1View" destination="nET-yQ-4W6" id="SzP-W9-gu9"/>
+                        <outlet property="tile2View" destination="sLA-d7-KSd" id="22e-Oq-aVw"/>
+                        <outlet property="tile3View" destination="MCs-iE-Qsi" id="c9F-W1-DKV"/>
+                        <outlet property="tile4View" destination="h05-TK-RNQ" id="uGA-qG-vGM"/>
+                        <outlet property="tile5View" destination="eb6-LP-QWl" id="d1P-7G-ChC"/>
+                        <outlet property="tile6View" destination="vPJ-oT-TBU" id="gM6-Tc-fYK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

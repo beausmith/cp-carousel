@@ -44,6 +44,9 @@ class TutorialViewController: UIViewController, UIScrollViewDelegate {
         }
     }
     
+    @IBAction func didTapPageControl(sender: AnyObject) {
+        
+    }
     
     /*
     // MARK: - Navigation
