@@ -251,7 +251,7 @@
                                         <rect key="frame" x="0.0" y="619" width="320" height="46"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <connections>
-                                            <segue destination="BYZ-38-t0r" kind="modal" id="Kut-cd-LfG"/>
+                                            <action selector="didTapSignOut:" destination="wl9-0R-ncE" eventType="touchUpInside" id="oRC-Hp-jnH"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -264,6 +264,7 @@
                     <connections>
                         <outlet property="imageView" destination="4Yo-8P-b6i" id="5DE-0q-An1"/>
                         <outlet property="scrollView" destination="kMY-qd-ddv" id="VFS-uu-vWO"/>
+                        <segue destination="wBu-L2-vcZ" kind="modal" identifier="logoutSegue" id="AD6-Y3-qfi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8be-pM-0hb" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -439,7 +440,4 @@
         <image name="welcome3" width="320" height="568"/>
         <image name="welcome4" width="320" height="568"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="Kut-cd-LfG"/>
-    </inferredMetricsTieBreakers>
 </document>

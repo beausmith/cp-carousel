@@ -41,7 +41,8 @@ Homework for CodePath, [Week 2 Project: Carousel](http://courses.codepath.com/co
   - [x] User can dismiss the conversations screen
 - [x] Settings
   - [x] User can dismiss the settings screen.
--   [x] User can log out
+  - [x] User can log out
+  - [x] Optional: Sign Out UIAlertController
 - [ ] Optional: Learn more about Carousel
   - [ ] Optional: Show the "Learn more about Carousel" button in the photo timeline.
   - [ ] Optional: Tap the X to dismiss the banner
